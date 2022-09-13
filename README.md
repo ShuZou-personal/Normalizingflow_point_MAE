@@ -39,22 +39,21 @@ How this one works:
     As the last layer of backbone, the prediction head aims to reconstruct masked point patches in coordinate space. We simply use a fully connected (FC) layer as our prediction head.
     
     
-    
 [Masked Surfel Prediction for Self-Supervised Point Cloud Learning](https://arxiv.org/abs/2207.03111)
 ![architecuture2](images/MaskSurf.png)
 
+### Papers on Using the Normalizing Flow to Represent Point Cloud
 
+[Representing Point Clouds with Generative Conditional Invertible Flow Networks](https://arxiv.org/abs/2010.11087)
+
+[PointFlow: 3D Point Cloud Generation with Continuous Normalizing Flows](https://openaccess.thecvf.com/content_ICCV_2019/html/Yang_PointFlow_3D_Point_Cloud_Generation_With_Continuous_Normalizing_Flows_ICCV_2019_paper.html)
+
+### Papers may Relative
 
 [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/abs/1612.00593)
- 
-Notes and ideas
-The basic architecture of our network is surprisingly simple as in the initial stages each point is processed identically and independently.
-Why Independently?
-Key to our approach is the use of a single symmetric function, max pooling.
-
 
 [Semi-Conditional Normalizing Flows for Semi-Supervised Learning](https://arxiv.org/abs/1905.00505)
 
-[Representing Point Clouds with Generative Conditional Invertible Flow Networks](https://arxiv.org/abs/2010.11087)
+The model uses both labelled and unlabeled data to learn an explicit model of joint distribution over objects and labels
 
 [Point-BERT: Pre-training 3D Point Cloud Transformers with Masked Point Modeling](https://arxiv.org/abs/2111.14819)
