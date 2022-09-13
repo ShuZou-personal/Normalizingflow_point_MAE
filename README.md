@@ -11,6 +11,8 @@ It is usually done by designing a pretext task to pre-train the model, then fine
 
 How this one works:
 1. first processed by a masking and embedding module.
+
+
     1.1 get point patch 
     divide input point cloud into irregular point patches (may overlap) via Farthest Point Sampling (FPS) and K-Nearest Neighborhood (KNN) algorithm.
     
@@ -39,6 +41,8 @@ How this one works:
     
     
 [Masked Surfel Prediction for Self-Supervised Point Cloud Learning](https://arxiv.org/abs/2207.03111)
+![architecuture2](images/MaskSurf.png)
+
 
 
 [PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation](https://arxiv.org/abs/1612.00593)
