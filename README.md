@@ -40,3 +40,13 @@ How this one works:
 
 2. Prediction Head 
     As the last layer of backbone, the prediction head aims to reconstruct masked point patches in coordinate space. We simply use a fully connected (FC) layer as our prediction head.
+    
+    
+    
+[Masked Surfel Prediction for Self-Supervised Point Cloud Learning](https://arxiv.org/abs/2207.03111)
+
+[Semi-Conditional Normalizing Flows for Semi-Supervised Learning](https://arxiv.org/abs/1905.00505)
+
+[Representing Point Clouds with Generative Conditional Invertible Flow Networks](https://arxiv.org/abs/2010.11087)
+
+[Point-BERT: Pre-training 3D Point Cloud Transformers with Masked Point Modeling](https://arxiv.org/abs/2111.14819)
