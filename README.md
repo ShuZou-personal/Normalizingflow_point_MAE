@@ -1,6 +1,11 @@
 # Normalizingflow_point_MAE
 ## Target: Literature review and finding ideas
 
+
+## Core Idea I believe
+[Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/abs/2111.06377)
+
+
 ### Paper discussed with Zeeshan
 [Masked Autoencoders for Point Cloud Self-supervised Learning](https://arxiv.org/abs/2203.06604)
 ![architecuture](images/point_MAE.png)
@@ -57,3 +62,21 @@ How this one works:
 The model uses both labelled and unlabeled data to learn an explicit model of joint distribution over objects and labels
 
 [Point-BERT: Pre-training 3D Point Cloud Transformers with Masked Point Modeling](https://arxiv.org/abs/2111.14819)
+
+
+### General Idea:
+
+First idea: on improving the masking.
+
+First of all, using the normalizing flow to convert the samples from gaussian distribution into point cloud distribution.
+
+Making use of the gaussian distribution can probably increase the randomness or effectiveness of the masking because it is more uniform in Gaussian.
+
+
+Second idea: 
+Semi-Conditional Normalizing Flows for Semi-Supervised Learning told us that the use of joint distribution of samples and label.
+
+Thrid idea:
+Using the normalizing flow to directly learn the distribution of different class of the point cloud.
+
+Which probably be a idea of implemting in classification problem.
