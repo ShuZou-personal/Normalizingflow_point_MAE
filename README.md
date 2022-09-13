@@ -63,6 +63,8 @@ The model uses both labelled and unlabeled data to learn an explicit model of jo
 
 [Point-BERT: Pre-training 3D Point Cloud Transformers with Masked Point Modeling](https://arxiv.org/abs/2111.14819)
 
+[Self-Supervised Deep Learning on Point Clouds by Reconstructing Space](https://arxiv.org/abs/1901.08396)
+
 
 ### General Idea:
 
